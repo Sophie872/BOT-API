@@ -1,0 +1,21 @@
+{
+  "name": "test-bot",
+  "version": "1.0.0",
+  "description": "Bot oficial de PCBA",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Lisbeth Mujica",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "node-telegram-bot-api": "^0.58.0",
+    "npm-git-install": "^0.3.0"
+  },
+  "gitDependencies": {
+    "private-package-name": "git@private.git.server:user/repo.git#revision",
+    "public-package-name": "https://github.com/user/repo.git#revision"
+  }
+}
